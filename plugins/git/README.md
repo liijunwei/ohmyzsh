@@ -68,6 +68,7 @@ plugins=(... git)
 | gdnolock             | git diff $@ ":(exclude)package-lock.json" ":(exclude)&ast;.lock"                                                                 |
 | gdv                  | git diff -w $@ \| view -                                                                                                         |
 | gdw                  | git diff --word-diff                                                                                                             |
+| gdo                  | git diff HEAD@{u} HEAD                                                                                                           |
 | gf                   | git fetch                                                                                                                        |
 | gfa                  | git fetch --all --prune                                                                                                          |
 | gfg                  | git ls-files \| grep                                                                                                             |
